@@ -25,3 +25,5 @@ LineLength lineLength = new LineLength()`
 
 - For length on Origin / Point 0 with zero length:
   `lineLength.calculateZeroLengthLine()`
+- For length on Horizontal Origin:
+  `lineLength.calculateHorizontalFromOrigin()`

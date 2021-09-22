@@ -12,4 +12,11 @@ public class LineLengthTest {
 
         assertEquals(0, lineLength.calculateZeroLengthLine());
     }
+
+    @Test
+    public void testCalculateHorizontalFromOriginGivenSecondPointOnXAxisIsFiveExpectReturnFive() {
+        LineLength lineLength = new LineLength();
+
+        assertEquals(5, lineLength.calculateHorizontalFromOrigin(0, 5));
+    }
 }
