@@ -19,4 +19,11 @@ public class LineLengthTest {
 
         assertEquals(5, lineLength.calculateHorizontalFromOrigin(0, 5));
     }
+
+    @Test
+    public void testCalculateVerticalFromOriginGivenSecondPointOnYAxisIsSevenExpectReturnSeven() {
+        LineLength lineLength = new LineLength();
+
+        assertEquals(7, lineLength.calculateVerticalFromOrigin(0, 7));
+    }
 }
